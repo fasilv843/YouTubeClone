@@ -1,0 +1,82 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    width: 235px;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    overflow-y: hidden
+    
+   
+}
+.sidebar:hover{
+    overflow-y: scroll
+}
+
+.sidebar-link{
+    width: 218px ;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.home-div{
+    background-color: rgb(238, 237, 237);
+}
+
+.sidebar-link:hover{
+    background-color: rgb(238, 237, 237);
+}
+
+.sidebar-icons{
+    padding: 0px 20px;
+}
+
+.sidebar-headings{
+    font-size: 16px;
+    margin-left: 20PX;
+    margin-top: 30PX;
+}
+
+.channel-pic-sidebar{
+    width: 25px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.profile-pic-sidebar{
+    width: 25px;
+    border-radius: 12px;
+}
+
+
+
+.sidebar-footer{
+    color: #606060;
+    margin-right: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.copyright{
+    color: #909090;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+hr{
+    opacity: 0.3;
+    margin: 15px;
+}
+
+
